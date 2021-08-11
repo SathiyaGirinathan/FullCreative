@@ -4,14 +4,13 @@ class Der1 extends Base1{}
 class Der2 extends Base1{}
 class Der3 extends Base2{}
 class Der4 extends Base2{}
-
 /*
- * 					Object
- * 				/			\
- * 			base1			base2
- * 			/	\			/	\
- * 		Der1	Der2	Der3	Der4
- */
+		Object
+		/    \
+	    Base1    Base2
+	    /	\    /	 \
+	 Der1  Der2  Der3 Der4
+*/
 public class TypeCasting {
 	
 	public static void main(String[] args)
