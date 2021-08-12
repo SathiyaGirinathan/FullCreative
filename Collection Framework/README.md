@@ -16,3 +16,6 @@ Collections:
 3)	With respect to performance Collections are not recommended to Use
 4)	Can hold only Objects
 5)	Collection classes are implemented based on some standard data structure. Hence readymade method support is available in arrays.
+
+![image](https://user-images.githubusercontent.com/65302254/129141421-7a91e390-fc42-4d33-971b-706ef3616eca.png)
+
