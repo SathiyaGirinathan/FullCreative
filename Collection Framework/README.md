@@ -17,5 +17,16 @@ Collections:
 4)	Can hold only Objects
 5)	Collection classes are implemented based on some standard data structure. Hence readymade method support is available in arrays.
 
-![image](https://user-images.githubusercontent.com/65302254/129141421-7a91e390-fc42-4d33-971b-706ef3616eca.png)
+Collection vs Collections:
 
+Collection (I):
+----------
+1) Collection is a Interface which belongs to java.util package.
+2) Collection can be used to represent a group of individual objects as a single entity
+3) Collection is the root interface from which almost all DS are derived, commonly known as collection framework
+
+Collections (C):
+-----
+1) Collections is a utility class which belongs to java.util.package.
+2) Collections define several utility methods like sorting searching for collection objects
+3) Collections class contain many static methods with which DS manipulation becomes easier
