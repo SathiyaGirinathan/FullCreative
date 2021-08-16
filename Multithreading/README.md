@@ -39,7 +39,7 @@ Exceptions in Thread's:
 1) IllegalThreadStateException 
 2) IllegalArgumentException
 
-How to stop executing a thread?
+How to prevent executing a thread?
 -----
 These are the methods: yield(), join(), sleep();
 1) public static native void yield()
