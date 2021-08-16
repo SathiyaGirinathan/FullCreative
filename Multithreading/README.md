@@ -22,3 +22,9 @@ Getting and Setting name of the thread:
 1) public final String getName();
 2) public final void setName(String name);
 3) public static Thread currentThread();
+
+Thread priorities:
+-----
+1) Thread.MIN_PRIORITY ---- 1
+2) Thread.MAX_PRIORITY ---- 10
+3) Thread.NORM_PRIORITY ---- 5
