@@ -4,6 +4,7 @@ Files I uploaded:
 2) ThreadDemo2 -> Overloading of run() method
 3) ThreadDemo3 -> Overriding of start() method
 4) ThreadDemo4 -> Creating a thread by implementing runnable interface
+5) ThreadDemo5 -> Getting and Setting name of Thread
 
 Thread class constructors:
 -------------------------
@@ -15,3 +16,9 @@ Thread class constructors:
 6) Thread t = new Thread(ThreadGroup g, Runnable r);
 7) Thread t = new Thread(ThreadGroup g, Runnable r, String name);
 8) Thread t = new Thread(ThreadGroup g, Runnable r, String name, long stackSize);
+
+Getting and Setting name of the thread:
+------------------
+1) public final String getName();
+2) public final void setName(String name);
+3) public static Thread currentThread();
