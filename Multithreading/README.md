@@ -9,6 +9,7 @@ Files I uploaded:
 7) ThreadDemo7 -> yield method
 8) ThreadDemo8 -> join method
 9) ThreadDemo9 -> interrupt() method
+10) ThreadDemo10 -> Synchronized method Example
 
 Thread class constructors:
 -------------------------
