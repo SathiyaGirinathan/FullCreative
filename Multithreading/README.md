@@ -6,6 +6,7 @@ Files I uploaded:
 4) ThreadDemo4 -> Creating a thread by implementing runnable interface
 5) ThreadDemo5 -> Getting and Setting name of Thread
 6) ThreadDemo6 -> Setting and Getting thread priorities
+7) ThreadDemo7 -> yield method
 
 Thread class constructors:
 -------------------------
