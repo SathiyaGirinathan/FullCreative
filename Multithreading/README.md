@@ -42,9 +42,9 @@ Exceptions in Thread's:
 How to stop executing a thread?
 -----
 These are the methods: yield(), join(), sleep();
-public static native void yield()
-public final void join()throws InterruptedException
-public final void join(long ms) throws InterruptedException
-public final void join(long ms,int ns) throws InterruptedException
-public static native void sleep(long ms) throws InterruptedException
-public static void sleep(long ms,int ns)throws InterruptedException
+1) public static native void yield()
+2) public final void join()throws InterruptedException
+3) public final void join(long ms) throws InterruptedException
+4) public final void join(long ms,int ns) throws InterruptedException
+5) public static native void sleep(long ms) throws InterruptedException
+6) public static void sleep(long ms,int ns)throws InterruptedException
