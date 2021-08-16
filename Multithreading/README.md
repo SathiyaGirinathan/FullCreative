@@ -39,5 +39,12 @@ Exceptions in Thread's:
 1) IllegalThreadStateException 
 2) IllegalArgumentException
 
-Join method diagram:
-![image](https://user-images.githubusercontent.com/65302254/129532662-4bcc48c5-d401-4ff8-aaf3-d2df0fafdb7f.png)
+How to stop executing a thread?
+-----
+These are the methods: yield(), join(), sleep();
+public static native void yield()
+public final void join()throws InterruptedException
+public final void join(long ms) throws InterruptedException
+public final void join(long ms,int ns) throws InterruptedException
+public static native void sleep(long ms) throws InterruptedException
+public static void sleep(long ms,int ns)throws InterruptedException
