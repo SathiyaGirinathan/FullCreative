@@ -5,14 +5,17 @@ class MyThread extends Thread
 {
 	public void run()
 	{
-		for(int i=0;i<5;i++)
-		{
-			System.out.println("Sita Thread");
 		try
 		{
-			Thread.sleep(1000);
+			for(int i=0;i<5;i++)
+			{
+				System.out.println("i am lazy Thread :"+i);
+				Thread.sleep(2000);
+			}
 		}
-		catch (InterruptedException e){System.out.println("I got interupted");}
+		catch (InterruptedException e)
+		{
+		System.out.println("i got interrupted");
 		}
 	}
 }
