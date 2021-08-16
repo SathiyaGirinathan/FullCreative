@@ -28,3 +28,10 @@ Thread priorities:
 1) Thread.MIN_PRIORITY ---- 1
 2) Thread.MAX_PRIORITY ---- 10
 3) Thread.NORM_PRIORITY ---- 5
+4) public final int getPriority();
+5) public final void setPriority(int priority); // Allowed ranges are 1 to 10
+
+Exceptions in Thread's:
+-----
+1) IllegalThreadStateException 
+2) IllegalArgumentException
