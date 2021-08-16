@@ -38,4 +38,5 @@ Exceptions in Thread's:
 1) IllegalThreadStateException 
 2) IllegalArgumentException
 
-https://share.anysnap.app/fvQFYmAewMSn
+Join method diagram:
+![image](https://user-images.githubusercontent.com/65302254/129532662-4bcc48c5-d401-4ff8-aaf3-d2df0fafdb7f.png)
