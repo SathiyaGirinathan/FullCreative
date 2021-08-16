@@ -7,6 +7,7 @@ Files I uploaded:
 5) ThreadDemo5 -> Getting and Setting name of Thread
 6) ThreadDemo6 -> Setting and Getting thread priorities
 7) ThreadDemo7 -> yield method
+8) ThreadDemo8 -> join method
 
 Thread class constructors:
 -------------------------
