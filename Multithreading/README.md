@@ -5,6 +5,7 @@ Files I uploaded:
 3) ThreadDemo3 -> Overriding of start() method
 4) ThreadDemo4 -> Creating a thread by implementing runnable interface
 5) ThreadDemo5 -> Getting and Setting name of Thread
+6) ThreadDemo6 -> Setting and Getting thread priorities
 
 Thread class constructors:
 -------------------------
