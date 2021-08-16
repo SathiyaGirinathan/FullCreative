@@ -8,6 +8,7 @@ Files I uploaded:
 6) ThreadDemo6 -> Setting and Getting thread priorities
 7) ThreadDemo7 -> yield method
 8) ThreadDemo8 -> join method
+9) ThreadDemo9 -> interrupt() method
 
 Thread class constructors:
 -------------------------
