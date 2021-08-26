@@ -91,5 +91,66 @@ public class LinkedList {
         q.setNext(null);
         return p;
     }
+    public synchronized void removeMatched(Node node)
+    {
+        if(head==null)
+            return;
+        if(node.equals(head))
+        {
+            head=head.getNext();
+            return;
+        }
+        Node p=head;
+        Node q=null;
+        while((q=p.getNext())!=null)
+        {
+            if(node.equals(q))
+            {
+                p.setNext(q.getNext());
+                return;
+            }
+            p=q;
+        }
+    }
+    public void remove(int position)
+    {
+        if(position<0)
+            position=0;
+        if(position>=0)
+            position=length-1;
+        if(head==null)
+            return;
+        if(position==0)
+            head=head.getNext();
+        else
+        {
+            Node temp=head;
+            for(int i=1;i<position;i++)
+                temp=temp.getNext();
+            temp.setNext(temp.getNext().getNext());
+        }
+        length-=1;
+    }
+    public String toString()
+    {
+        String result="[";
+        if(head==null)
+        {
+            return result+"]";
+        }
+        result=result+head.getData();
+        Node temp=head.getNext();
+        while(temp!=null)
+        {
+            result=result+","+temp.getData();
+            temp=temp.getNext();
+        }
+        return result+"]";
+    }
+    public int length()
+    {
+        return length;
+    }
+
 }
 
